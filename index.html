@@ -21,7 +21,7 @@
     {% if site.data.paper.chosen and site.data.rock.chosen and site.data.scissors.chosen == false %}
         <div class="row winning-row">
             <div class="col-xs-6">
-                <div class="winning weapon-icon animated infinite flash"><i class="fa fa-hand-paper-o" aria-hidden="true"></i></div>
+                <div class="winning weapon-icon animated infinite jello"><i class="fa fa-hand-paper-o" aria-hidden="true"></i></div>
                 <h1 class="player">{{ site.data.paper.player }}</h1>
             </div>
             <div class="col-xs-6">
@@ -32,7 +32,7 @@
         {% elsif site.data.paper.chosen and site.data.rock.chosen == false and site.data.scissors.chosen %}
         <div class="row winning-row">
             <div class="col-xs-6">
-                <div class="winning weapon-icon animated infinite flash"><i class="fa fa-hand-scissors-o" aria-hidden="true"></i></div>
+                <div class="winning weapon-icon animated infinite jello"><i class="fa fa-hand-scissors-o" aria-hidden="true"></i></div>
                 <h1 class="player">{{ site.data.scissors.player }}</h1>
             </div>
             <div class="col-xs-6">
@@ -43,7 +43,7 @@
         {% elsif site.data.paper.chosen == false and site.data.rock.chosen and site.data.scissors.chosen %}
         <div class="row winning-row">
             <div class="col-xs-6">
-                <div class="winning weapon-icon animated infinite flash"><i class="fa fa-hand-rock-o" aria-hidden="true"></i></div>
+                <div class="winning weapon-icon animated infinite jello"><i class="fa fa-hand-rock-o" aria-hidden="true"></i></div>
                 <h1 class="player">{{ site.data.rock.player }}</h1>
             </div>
             <div class="col-xs-6">
